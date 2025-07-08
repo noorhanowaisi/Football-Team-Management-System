@@ -1,0 +1,77 @@
+body{
+    background-image: url("backgroundimage.jpg");
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+input, button {
+    display: block;
+    margin: 30px auto;
+    width: 70%;
+    height: 100%;
+    border-radius: 12px;
+}
+input{
+    border: none;
+    height: 10px;
+    border-bottom: 1px solid #999;
+    padding: 10px;
+}
+button {
+    width: 30%;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.error {
+    color: red;
+}
+a:link {
+    text-decoration: underline;
+    color: blue;
+    }
+a:visited {
+    text-decoration: underline;
+    color: purple;
+    }
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+button:hover{
+    background-color: aqua;
+}
+fieldset{
+    border-radius: 12px;
+}
+#fonttype{
+    font-family: serif;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  #fullteam{
+    color: red;
+    font-weight: bold;
+  }    
+  input:invalid {
+    border: 3px solid red;
+    margin: 10px;
+    width: 80%;
+}
+input:required {
+    background: #5ec75e;
+    margin: 10px;
+    width: 80%;
+}
+  
